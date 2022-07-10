@@ -1,4 +1,4 @@
-﻿:root {
+:root {
     scroll-behavior: smooth;
     --white: #FFFFFF;
     --black: #000000;
@@ -48,11 +48,11 @@
     --events-title-light: #c6c4c4;
     --founder: #AA0000;
     --media-owner: #AA0000;
-    --smanager: #00ff05;
+    --designer: #00ff05;
     --manager: #93f556;
     --admin: #FF5555;
     --senior-mod: #AA00AA;
-    --stester: #00AAAA;
+    --interviewer: #00AAAA;
     --tester: #FFFF55;
     --builder: #00AA00;
     --partner: #FF55FF;
@@ -143,7 +143,7 @@
     padding: 5px 10px;
 }
 
-.site-settings .fl-table td .rank-smanager {
+.site-settings .fl-table td .rank-designer {
     color: var(--white);
     padding: 5px 10px;
 }
@@ -286,8 +286,8 @@ a:focus {
     background-color: var(--media-founder);
 }
 
-.rank-smanager {
-    background-color: var(--smanager);
+.rank-designer {
+    background-color: var(--designer);
 }
 
 .rank-manager {
@@ -302,8 +302,8 @@ a:focus {
     background-color: var(--senior-mod);
 }
 
-.rank-stester {
-    background-color: var(--stester);
+.rank-interviewer {
+    background-color: var(--interviewer);
 }
 
 .rank-tester {
@@ -1831,8 +1831,8 @@ li a:focus, a:hover {
     background-color: var(--media-founder) !important;
 }
 
-.side-menu-selection .smanager a:hover {
-    background-color: var(--smanager) !important;
+.side-menu-selection .designer a:hover {
+    background-color: var(--designer) !important;
 }
 
 .side-menu-selection .manager a:hover {
@@ -1847,8 +1847,8 @@ li a:focus, a:hover {
     background-color: var(--senior-mod) !important;
 }
 
-.side-menu-selection .stester a:hover {
-    background-color: var(--stester) !important;
+.side-menu-selection .interviewer a:hover {
+    background-color: var(--interviewer) !important;
 }
 
 .side-menu-selection .tester a:hover {
@@ -1884,9 +1884,9 @@ li a:focus, a:hover {
     padding: 25px 50px;
 }
 
-.staff-panel-heading > .smanager {
+.staff-panel-heading > .designer {
     margin: 0px 0px 25px 0px;
-    border-left: 15px solid var(--smanager);
+    border-left: 15px solid var(--designer);
     padding: 25px 50px;
 }
 
@@ -1908,9 +1908,9 @@ li a:focus, a:hover {
     padding: 25px 50px;
 }
 
-.staff-panel-heading > .stester {
+.staff-panel-heading > .interviewer {
     margin: 0px 0px 25px 0px;
-    border-left: 15px solid var(--stester);
+    border-left: 15px solid var(--interviewer);
     padding: 25px 50px;
 }
 
@@ -8251,7 +8251,7 @@ span.is-active {
 }
 
 .filter_range div:first-child:after {
-    content: '–';
+    content: '�';
     position: absolute;
     display: block;
     left: 100%;
@@ -8371,7 +8371,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 
 .custom-checkbox .checkbox:before {
     position: absolute;
-    content: "";
+    content: "?";
     font-family: "FontAwesome";
     color: #ff7a21;
     font-size: 13px;
